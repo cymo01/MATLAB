@@ -1,0 +1,9 @@
+%
+%  Understanding structure and cell array indexing
+%    We can create the following structure
+
+missileEvents.time=[10, 90, 110];   
+missileEvents.eventNames={'Launch', 'Midcourse', 'Terminal'};
+
+hooboy_cell=missileEvents.eventNames(3);   %Creates a 1x1 cell array called 'hooboy' containing the character string 'Terminal'
+hooboy_array=missileEvents.eventNames{3};   %Creates a 1x8 character array called 'hooboy' containing the character string 'Terminal'

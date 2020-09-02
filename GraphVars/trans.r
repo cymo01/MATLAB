@@ -1,0 +1,14 @@
+[filetype]
+2
+[functions]
+ned
+[scripts]
+[globals]
+[vars]
+dtr,double
+cos80,double
+sin80,double
+cneddcd,double
+i,double
+i_v0,double
+dcd,double
